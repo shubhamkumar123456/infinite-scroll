@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [
+            {name:"one",email:"one@gmail.com",password:"123456"},
+            {name:"two",email:"two@gmail.com",password:"123456"},
+            {name:"three",email:"three@gmail.com",password:"123456"},
+            {name:"four",email:"four@gmail.com",password:"123456"},
+        ]
+
+        let obj = {name:"three",email:"three1@gmail.com",password:123456}
+
+        let check = arr.find((ele)=>ele.email===obj.email); ///return the find data else undefined
+        console.log(check)
+
+
+
+
+    </script>
+</body>
+</html>
